@@ -1,0 +1,6 @@
+extension using interface i_salesordertp
+implementation in class zbp_zr_expeddely unique;
+extend behavior for SalesOrder
+{
+action (authorization : global, features : instance) zzexpd_dely result [1] $self;
+}

@@ -1,0 +1,6 @@
+extension for projection;
+
+extend behavior for SalesOrder
+{
+use action zzexpd_dely;
+}
